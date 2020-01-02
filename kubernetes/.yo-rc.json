@@ -1,0 +1,23 @@
+{
+  "generator-jhipster": {
+    "deploymentType": "kubernetes",
+    "gatewayType": "zuul",
+    "monitoring": "no",
+    "directoryPath": "../",
+    "appsFolders": [
+      "gateway",
+      "blog",
+      "store"
+    ],
+    "clusteredDbApps": [],
+    "consoleOptions": [],
+    "serviceDiscoveryType": "eureka",
+    "dockerRepositoryName": "ustcck",
+    "dockerPushCommand": "docker push",
+    "kubernetesNamespace": "default",
+    "kubernetesServiceType": "Ingress",
+    "ingressDomain": "",
+    "istio": false,
+    "jwtSecretKey": "MDZjZDJiM2RkMGQ0ODAxNmYzYmRjOTkzNTdkNjZiM2Q2ZTgzZGQ0MTI4MTEzOTAxN2UxNmE5NzNlZmRkMDI5Y2Q1NTgzMGY2ZTQ1OWFiYjlmNjFiN2YzZTBiZTZhMDllMWJmNQ=="
+  }
+}

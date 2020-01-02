@@ -1,0 +1,56 @@
+{
+  "generator-jhipster": {
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "enableHibernateCache": true,
+    "enableSwaggerCodegen": false,
+    "enableTranslation": true,
+    "jhiPrefix": "jhi",
+    "languages": [
+      "en",
+      "zh-cn"
+    ],
+    "messageBroker": false,
+    "nativeLanguage": "zh-cn",
+    "packageName": "com.ustcck.store",
+    "packageFolder": "com/ustcck/store",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "serviceDiscoveryType": "eureka",
+    "skipClient": true,
+    "testFrameworks": [],
+    "websocket": false,
+    "baseName": "store",
+    "applicationType": "microservice",
+    "authenticationType": "jwt",
+    "serverPort": "8082",
+    "jhipsterVersion": "6.5.1",
+    "buildTool": "maven",
+    "skipUserManagement": true,
+    "clientPackageManager": "npm",
+    "cacheProvider": "hazelcast",
+    "jwtSecretKey": "YjA1Mzg1OThkMTgwODNjMTQ4NjYyMjEwOTM5ZGY3MGE2NzgxYzIyYmMyZGZmZjAwNzNjMTRmZjkxNjIwMWEwYjBjMTI2OTZlN2NkOGM3YzgyODg1NjUyZDMwMzdhOGYxZmUzOGYyY2ViMmIxYzlkMTkyMzE5NjZiNjExN2I2MzE=",
+    "embeddableLaunchScript": false,
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [
+      {
+        "name": "generator-jhipster-vuejs",
+        "version": "1.3.0"
+      }
+    ],
+    "blueprints": [
+      {
+        "name": "generator-jhipster-vuejs",
+        "version": "1.3.0"
+      }
+    ]
+  },
+  "entities": [],
+  "generator-jhipster-vuejs": {
+    "languages": [
+      "en",
+      "zh-cn"
+    ]
+  }
+}
